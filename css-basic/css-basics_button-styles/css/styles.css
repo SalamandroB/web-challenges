@@ -31,18 +31,34 @@ button {
 Make sure not to put your code into the comments, because then nothing will happen. */
 
 .button1 {
+  color: hotpink;
+  background-color: black;
+  border: 1px;
+  border-radius: 25px;
+
   /* Style me! Change my border, set a border radius or try out other styles. :) */
 }
 
 .button2 {
+  color: blue;
+  background-color: aqua;
   /* Style me! Change my color or background-color, or both! You can experiment with different color formats here, like HEX, RGB, etc. */
 }
 
 .button3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+
   /* Style me! You can test out changing the font, font size, ...*/
 }
 
+.button3:hover {
+  background-color: hotpink;
+}
+
 .button4 {
+  background-color: aqua;
+  box-shadow: 4px 4px hotpink;
   /* Style me! Can you add a shadow to this button? Try playing around with shadow properties - you can even change the shadow color, size, and more. */
 }
 
